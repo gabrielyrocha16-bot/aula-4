@@ -1,1 +1,74 @@
 
+body {
+    max-width: 100vw;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E6D5F5; /* Lilás claro para fundo geral */
+}
+
+header {
+    background-color: #4B0082; /* Roxo escuro */
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+main {
+    background-color: #E6D5F5;
+    color: #4B0082;
+    margin: 0 auto;
+    padding: 16px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    display: flex;
+
+    background-color: #FFFFFF;
+    border: 2px solid #8A2BE2; /* Borda Roxo/Lilás */
+    border-radius: 8px;
+
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+
+    flex: 1 1 25%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.artigo-autor {
+    font-weight: bold;
+    color: #8A2BE2;
+}
+
+.artigo-fonte {
+    font-size: 0.85em;
+    color: #666666;
+}
+
+button {
+    background-color: #E6D5F5;
+    border: 1px solid #8A2BE2;
+    color: #4B0082;
+    padding: 6px 12px;
+    margin: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #D8BFD8;
+}
